@@ -1,7 +1,7 @@
 import { UserCardProps } from "../model/types";
 import UserImage from "../../../shared/images/asabeneh.jpg";
 import Image from "next/image";
-import style from "../../../index.module.css";
+import style from "../../../index_light.module.css";
 
 export const UserCard: React.FC<UserCardProps> = (props) => {
   const { name } = { ...props };

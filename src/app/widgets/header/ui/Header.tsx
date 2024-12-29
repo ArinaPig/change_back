@@ -1,5 +1,5 @@
 import { HeaderProps } from "../model/types";
-import style from "../../../index.module.css";
+import style from "../../../index_light.module.css";
 
 export const Header: React.FC<HeaderProps> = (props) => {
   const { large } = { ...props };
